@@ -1,0 +1,8 @@
+# Ignore large files
+Miniconda3-latest-Linux-x86_64.sh
+checkpoints/classifiers/CelebA_CNN_9.pth
+checkpoints/generative_models/CelebA_Glow.pth
+checkpoints/generative_models/CelebA_pGAN.pth
+checkpoints/generative_models/CheXpert_Glow.pth
+checkpoints/generative_models/MNIST_realNVP.pth
+checkpoints/generative_models/Mall_Glow.pth

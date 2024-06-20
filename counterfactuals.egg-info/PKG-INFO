@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: counterfactuals
+Version: 1.0
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: scipy
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: tqdm
