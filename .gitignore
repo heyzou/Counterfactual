@@ -8,3 +8,4 @@ checkpoints/generative_models/MNIST_realNVP.pth
 checkpoints/generative_models/Mall_Glow.pth
 # Ignore all images in the results directory
 results/*.png
+results/*.jpg
