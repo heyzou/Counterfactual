@@ -95,7 +95,6 @@ def classifier(ctx, path, unet_type):
     ctx.obj.classifier_type = c_type
     ctx.obj.classifier = classifier
 
-
 @main.command()
 @click.option('--attack_style', default='z', type=click.Choice(['z', 'conv']),
               help="Find conventional adversarial examples in X or counterfacluals in Z")

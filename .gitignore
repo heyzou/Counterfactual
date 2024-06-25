@@ -6,3 +6,5 @@ checkpoints/generative_models/CelebA_pGAN.pth
 checkpoints/generative_models/CheXpert_Glow.pth
 checkpoints/generative_models/MNIST_realNVP.pth
 checkpoints/generative_models/Mall_Glow.pth
+# Ignore all images in the results directory
+results/*.png

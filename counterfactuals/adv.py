@@ -100,7 +100,6 @@ def adv_attack(g_model: GenerativeModel,
     g_model_name = f"_{type(g_model).__name__}" if g_model is not None else ""
     plt.savefig(result_dir + f'overview_{image_name}_{attack_style}{g_model_name}_save_at_{save_at}.png')
 
-
 def run_adv_attack(x: Tensor,
                    z: Tensor,
                    optimizer: Optimizer,
